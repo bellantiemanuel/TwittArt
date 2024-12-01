@@ -1,16 +1,19 @@
 {
-  "name": "twittart",
-  "version": "1.0.0",
   "main": "backend/server.js",
+  
+  "name": "TwittArt",
+  "version": "1.0.0",
+  "keywords": ["twittart", "twitter", "art"],
+  "author": "Emanuel N. Bellanti",
+  "type": "module",
+  "license": "ISC",
+  "description": "Twitter Clone for Artists Community",
+  
   "scripts": {
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC ",
-  "description": "",
+  
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.1",
@@ -22,6 +25,7 @@
     "mongodb": "^6.11.0",
     "mongoose": "^8.8.3"
   },
+  
   "devDependencies": {
     "nodemon": "^3.1.7"
   }
